@@ -1,0 +1,273 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Uncomment if you have tasks that create the project's client-side source files in node_modules
+#node_modules/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+[Bb]uild[Ll]ogs/
+[Ll]og/
+[Ll]ogs/
+
+# NUNIT
+*.VisualState.xml
+[TestResult.xml]
+
+# Build results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.xsc
+*.xsd
+*.xss
+*.xsx
+*.[Cc]ache
+
+# Web publish folder
+# Note: Uncomment if using the `web-publish` folder
+# publish/
+
+# Web publish folder (dist)
+# Note: Uncomment if using the `dist` folder
+# dist/
+
+# Web publish folder (wwwroot)
+# Note: Uncomment if using the `wwwroot` folder
+# wwwroot/
+
+# DNX
+project.lock.json
+artifacts/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.tmp.*
+
+# R Project files
+.Rproj.user
+
+# Microsoft Azure Web App publish settings. Comment this if you have to share app publish settings with all team members.
+# .PublishSettings
+
+# IIS/ASP.NET generated files
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# Backup & report files from converting an old project file format to a newer one.
+# *.Backup
+# *.htm
+# *.html
+
+# Windows PowerShell folder and script files
+[Tt]emporary[Aa]sp.net [Ff]iles/
+*.ps1
+*.psm1
+*.psd1
+
+# Windows PowerShell folder and script files
+[Pp]owershell[Hh]istory/
+*.ps1
+*.psm1
+*.psd1
+
+# Windows Phone development files
+[Vv]isual[Cc]ache.xml
+[Mm]anifest.xml.cache
+*.WMAppManifest.xml
+
+# Windows Phone 8.1 - 10 development files
+AppPackages/
+
+# Windows Store app package directories and files
+[Bb]AppxAutoGenManifest.xml
+[Bb]AppxManifest.xml
+[Bb]undle.*
+[Bb]undleSymbolPackage.*
+
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+.idea_macros/
+.idea_project/
+.idea_test/
+.idea_testdata/
+.idea_files/
+.idea_data/
+.idea_modules/
+.idea_bin/
+.idea/misc.xml
+.idea/misc.xml/
+.idea/dictionaries/
+.idea/workspace.xml
+.idea/modules.xml
+.idea/Library/
+.idea/DotSettings.user
+
+# Rider's data directories
+.idea/.idea.vcs.xml
+.idea/.idea.xml
+
+# Rider's remote repositories cache
+.idea/remote/
+
+# Rider's working directories
+.idea/workspace.xml
+
+# Rider's data directories
+.idea/LocalSettings.xml
+.idea/MethodAnnotations.xml
+
+# Rider's logs
+.idea/log/
+
+# Rider's deployment caches
+.idea/.idea/*.log
+
+# Rider's deployment caches
+.idea/.idea/*.cache
+
+# Rider's IDE settings
+.idea/.idea/*.xml
+
+# Rider's IDE settings
+.idea/.idea/.config/
+
+# Rider's IDE settings
+.idea/.idea/.gitignore
+
+# Rider's IDE settings
+.idea/.idea/.git/
+
+# Rider's project
+.idea/.idea/
+
+# Rider's remote caches
+.idea/.idea/vcs.xml
+
+# Rider's IDE settings
+.idea/.idea/system/
+
+# Rider's IDE settings
+.idea/.idea/web/
+
+# Rider's IDE settings
+.idea/.idea/log/
+
+# Rider's IDE settings
+.idea/.idea/bin/
+
+# Rider's IDE settings
+.idea/.idea/fileTemplates/
+
+# Rider's IDE settings
+.idea/.idea/config/
+
+# Rider's IDE settings
+.idea/.idea/test/
+
+# Rider's IDE settings
+.idea/.idea/work/
+
+# Rider's IDE settings
+.idea/.idea/gradle/
+
+# Rider's IDE settings
+.idea/.idea/libraries/
+
+# Rider's IDE settings
+.idea/.idea/modules/
+
+# Rider's IDE settings
+.idea/.idea/plugins/
+
+# Rider's IDE settings
+.idea/.idea/externally_deletable/
+
+# Rider's IDE settings
+.idea/.idea/inspectionProfiles/
+
+# Rider's IDE settings
+.idea/.idea/s

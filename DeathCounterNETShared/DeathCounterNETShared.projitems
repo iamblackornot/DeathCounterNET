@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>52d435d3-0ff1-49b4-8e6c-ccabe2be0dfc</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DeathCounterNETShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsoleHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Http\EndpointIPAddress.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Executor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Http\HandShaker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Http\HttpServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Http\PlayerClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OBS\OBSBridge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OBS\OBSBridgeController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OBS\OBSDirector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Http\Request.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Twitch\TwitchAccessTokenAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Twitch\TwitchCredentials.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Twitch\TwitchPublicAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Twitch\TwitchBridgeDeprecated.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Twitch\TwitchUserAccessTokenAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Http\UserTokenReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Twitch\ValidateTokenResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)OBS\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeathCounterNET", "DeathCounterNET\DeathCounterNET.csproj", "{BC1FB750-B9B7-47A9-89CD-28E074BCB595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeathCounterNETServer", "DeathCounterNETServer\DeathCounterNETServer.csproj", "{58EA5A7A-5151-4ACB-B901-BBA068F50D6E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DeathCounterNETShared", "DeathCounterNETShared\DeathCounterNETShared.shproj", "{52D435D3-0FF1-49B4-8E6C-CCABE2BE0DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1FB750-B9B7-47A9-89CD-28E074BCB595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1FB750-B9B7-47A9-89CD-28E074BCB595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1FB750-B9B7-47A9-89CD-28E074BCB595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1FB750-B9B7-47A9-89CD-28E074BCB595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EA5A7A-5151-4ACB-B901-BBA068F50D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EA5A7A-5151-4ACB-B901-BBA068F50D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EA5A7A-5151-4ACB-B901-BBA068F50D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EA5A7A-5151-4ACB-B901-BBA068F50D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4925582A-B4D2-43BA-9CA4-27513DFB17ED}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DeathCounterNETShared\DeathCounterNETShared.projitems*{52d435d3-0ff1-49b4-8e6c-ccabe2be0dfc}*SharedItemsImports = 13
+		DeathCounterNETShared\DeathCounterNETShared.projitems*{58ea5a7a-5151-4acb-b901-bba068f50d6e}*SharedItemsImports = 5
+		DeathCounterNETShared\DeathCounterNETShared.projitems*{bc1fb750-b9b7-47a9-89cd-28e074bcb595}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
